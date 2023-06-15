@@ -2,9 +2,9 @@
 
 ---
 
-Este projeto será uma landing page para um cliente.
+Este projeto é uma landing page para um cliente.
 
-## 🚀 Em desenvolvimento...
+## 🚀 Finalizado!
 
 ## 📋 Tecnologias
 HTML + CSS + JavaScript + GSAP
@@ -12,7 +12,7 @@ HTML + CSS + JavaScript + GSAP
 ## ✒️ Autor
 Márcio Reis
 
-😊 Link de acesso: 
+😊 Link de acesso: https://dev-marcioreis.github.io/streaming/
 
 
 ---
