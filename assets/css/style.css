@@ -311,7 +311,6 @@ img {
   justify-content: space-between;
 }
 .home__content {
-  flex: 1 1 40rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -346,9 +345,6 @@ img {
   align-items: center;
   gap: 1rem;
 }
-.home__image {
-  flex: 1 1 50rem;
-}
 .home__image img {
   object-fit: contain;
   width: 100%;
@@ -360,25 +356,18 @@ img {
 
 /*==========Media Query Home==========*/
 @media (max-width: 992px) {
+  .home {
+    min-height: auto;
+  }
   .home__container {
-    justify-content: center;
+    gap: 3rem;
     flex-direction: column;
   }
-  .home__content {
-    flex: 1;
-    margin-block-start: -2rem;
-  }
   .home__title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
-  .home__description {
-    margin-block-start: -1.5rem;
-  }
-  .home__btn {
-    margin-block-end: 4rem;
-  }
-  .home__image {
-    flex: 1;
+  .home__title span {
+    font-size: 2.5rem;
   }
   .home__image img {
     -webkit-box-reflect: below -100px linear-gradient(to bottom, hsla(0, 0%, 13%, 0), hsla(0, 0%, 13%, 0.11));
@@ -389,20 +378,15 @@ img {
 
 /*==========Media Query Mobile Home==========*/
 @media (max-width: 768px) {
-  .home__title {
-    font-size: 1.5rem;
-  }
-  .home__title span {
-    font-size: 2.5rem;
-  }
-  .home__description {
-    margin-block-start: 1rem;
+  .home__container {
+    margin-block-start: -2rem;
   }
   .home__image img {
-    -webkit-box-reflect: below -30px linear-gradient(to bottom, hsla(0, 0%, 13%, 0), hsla(0, 0%, 13%, 0.11));
+    -webkit-box-reflect: below -50px linear-gradient(to bottom, hsla(0, 0%, 13%, 0), hsla(0, 0%, 13%, 0.11));
   }
 
 }
+
 
 
 /*==========Info==========*/
